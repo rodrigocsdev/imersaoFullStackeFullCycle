@@ -10,7 +10,7 @@ type ProductDB struct {
 	db *sql.DB
 }
 
-func newProductDB(db *sql.DB) *ProductDB {
+func NewProductDB(db *sql.DB) *ProductDB {
 	return &ProductDB{db: db}
 }
 
